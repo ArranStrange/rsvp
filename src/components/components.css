@@ -1,0 +1,131 @@
+.component {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  height: 100lvh;
+  min-height: 720px;
+  width: 100lvw;
+  scroll-behavior: none;
+}
+
+.purple-background {
+  background-color: #cdacb7;
+  height: 100lvh;
+  width: 100lvw;
+}
+
+.purple-background-2 {
+  background-color: #cdacb7;
+  height: 150lvh;
+  width: 100lvw;
+}
+
+.green-background {
+  display: flex;
+  justify-content: center;
+  background-color: #aeb37a;
+  height: 100lvh;
+  width: 100lvw;
+}
+
+.red-background {
+  background-color: #cb4529;
+  height: 100lvh;
+  width: 100lvw;
+}
+
+.white-background {
+  background-color: #e2ccaa;
+  height: 100lvh;
+  width: 100lvw;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+@media screen and (max-width: 720px) {
+  .contact-form {
+    width: 90%;
+  }
+}
+.form-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.input {
+  width: 60%;
+  background-color: #e2ccaa;
+  border: none;
+  border-bottom: 2px solid white;
+  color: #cb4529;
+  outline: none;
+  font-family: "Chopader";
+  font-size: 1.5rem;
+  box-shadow: none;
+}
+.input:focus {
+  scroll-behavior: none;
+  font-size: 20px;
+}
+@media screen and (max-width: 720px) {
+  .input {
+    font-size: 1.2rem;
+  }
+}
+
+.radio-buttons {
+  width: 75%;
+}
+.radio-label {
+  white-space: nowrap;
+  margin-top: -5px;
+  font-size: 1.2rem;
+}
+
+input[type="radio"] {
+  margin-top: 10px;
+  height: 25px;
+  accent-color: #cb4529;
+}
+
+.submit-button {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 50px;
+  height: 90px;
+  width: 90px;
+  font-family: "Chopader";
+  font-size: 1.5rem;
+  color: white;
+}
+.submit:hover {
+  color: #cb4529;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

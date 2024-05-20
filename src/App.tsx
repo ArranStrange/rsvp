@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/* eslint-disable react/jsx-pascal-case */
+import "./App.css";
+import Paper from "./assets/white-texture.jpg";
+import Details_1 from "./components/Details_1";
+import Details_2 from "./components/Details_2";
+import Landing from "./components/Landing";
+import RSVP from "./components/RSVP";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <img src={Paper} className="overlay-texture" alt="Overlay texture" /> */}
+      <Landing />
+      <Details_1 />
+      <Details_2 />
+      <RSVP />
+      <Details_1 />
     </div>
   );
 }

@@ -2,9 +2,17 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.overlay-texture {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100lvh;
+  width: 100lvw;
   pointer-events: none;
+  mix-blend-mode: multiply;
+  opacity: 30%;
+  z-index: 999;
+  overflow: hidden;
 }
 
 @media (prefers-reduced-motion: no-preference) {

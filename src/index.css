@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Chivo:ital,wght@0,100..900;1,100..900&family=Homemade+Apple&family=Orbitron:wght@497&family=Press+Start+2P&family=Yellowtail&display=swap");
+
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "Chopader";
+  src: url("./assets//chopaderonedemo-9yvez.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  color: #d0532c;
+}
+
+html {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: "Chopader";
+  color: #d0532c;
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+  height: 100%;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 6rem;
+}
+h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+h3 {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+em {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(2.5rem, 3vw + 1rem, 3.5rem);
+  line-height: 0.1rem;
+  color: white;
+}
+
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 0.5rem;
+  }
 }
