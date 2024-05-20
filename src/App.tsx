@@ -14,7 +14,6 @@ function App() {
       <Details_1 />
       <Details_2 />
       <RSVP />
-      <Details_1 />
     </div>
   );
 }
