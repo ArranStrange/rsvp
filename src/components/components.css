@@ -20,7 +20,7 @@
 
 .purple-background-2 {
   background-color: #cdacb7;
-  height: 150lvh;
+  height: 100lvh;
   width: 100lvw;
 }
 
@@ -64,7 +64,7 @@
 
 .input {
   width: 60%;
-  background-color: #e2ccaa;
+  background-color: #cdacb7;
   border: none;
   border-bottom: 2px solid white;
   color: #cb4529;

@@ -4,22 +4,10 @@ import Disco from "../assets/Disco Ball.png";
 import Champagne from "../assets/Champagne.png";
 import Stamand from "../assets/St Amand.png";
 
-export default function Details_2() {
+export default function Details_3() {
   return (
-    <div className="component purple-background-2">
+    <div className="component white-background">
       <div className="details" style={{ marginBottom: "75px" }}>
-        <img src={Disco} style={{ width: "75px" }} alt="Disco Ball" />
-        <em style={{ fontSize: "2rem", lineHeight: "1rem", marginTop: "25px" }}>
-          Music
-        </em>
-        <h3 style={{ lineHeight: ".2rem" }}>PERFORMED BY Jac Mac</h3>
-        <em style={{ fontSize: "2rem", lineHeight: "3rem" }}>And</em>
-        <h3 style={{ lineHeight: ".2rem" }}>
-          A NEVER HEARD BEFORE SUPER GROUP
-        </h3>
-      </div>
-
-      {/* <div className="details" style={{ marginBottom: "75px" }}>
         <em
           style={{ fontSize: "2rem", lineHeight: ".2rem", marginTop: "50px" }}
         >
@@ -32,7 +20,7 @@ export default function Details_2() {
           style={{ height: "200px", marginTop: "1px" }}
           alt="St Amand's Logo"
         />
-      </div> */}
+      </div>
 
       {/* <div className="details" style={{ marginBottom: "75px" }}>
         <img

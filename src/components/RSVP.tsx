@@ -41,7 +41,7 @@ export default function RSVP(): JSX.Element {
   };
 
   return (
-    <div className="component white-background">
+    <div className="component purple-background">
       <motion.div
         initial={{ scale: 1 }}
         animate={{ scale: isSubmitted ? 0 : 1 }}
