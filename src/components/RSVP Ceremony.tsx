@@ -4,7 +4,7 @@ import Sent from "../assets/Sent.png";
 import emailjs, { init } from "@emailjs/browser";
 import { motion } from "framer-motion";
 
-export default function RSVP(): JSX.Element {
+export default function RSVPCeremony(): JSX.Element {
   const form = useRef<HTMLFormElement>(null);
   const [isAttending, setIsAttending] = useState<boolean | null>(null);
   const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
@@ -21,7 +21,7 @@ export default function RSVP(): JSX.Element {
     setIsSubmitted(true);
     if (form.current) {
       emailjs
-        .sendForm("service_ctyuukj", "template_ud7w21n", form.current, {
+        .sendForm("service_ctyuukj", "template_1ovdoom", form.current, {
           publicKey: "sR0LMHDgWJggw6gDZ",
         })
         .then(
@@ -95,6 +95,11 @@ export default function RSVP(): JSX.Element {
             id="rsvpEmail"
             name="rsvpEmail"
           />
+        </div>
+
+        <div className="form-line">
+          <label htmlFor="comment">Any Comments?:</label>
+          <input className="input" type="text" id="comment" name="comment" />
         </div>
 
         <div className="form-line radio-buttons">

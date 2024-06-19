@@ -12,7 +12,6 @@ export default function Details_1() {
         style={{ width: "140px", marginTop: "-40px", marginBottom: "70px" }}
       />
       <em style={{ fontSize: "1.5rem", marginBottom: "-15px" }}>4pm</em>
-      <h2>SUNDAY FIFTEENTH OF SEPTEMBER</h2>
     </div>
   );
 }
