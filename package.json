@@ -1,7 +1,7 @@
 {
   "name": "rsvp",
   "version": "0.1.0",
-  "homepage": "https://arranstrange.github.io/rsvp/",
+  "homepage": "https://arranstrange.github.io/rsvp",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
