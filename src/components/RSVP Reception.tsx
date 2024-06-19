@@ -96,6 +96,10 @@ export default function RSVPReception(): JSX.Element {
             name="rsvpEmail"
           />
         </div>
+        <div className="form-line">
+          <label htmlFor="comment">Any Comments?:</label>
+          <input className="input" type="text" id="comment" name="comment" />
+        </div>
 
         <div className="form-line radio-buttons">
           <label className="radio-label" htmlFor="isAttending">
