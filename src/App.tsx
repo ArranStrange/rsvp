@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" index element={<ReceptionMain />} />
-          <Route path="/reception" element={<ReceptionMain />} />
-          <Route path="/ceremony" element={<CeremonyMain />} />
+          <Route index element={<ReceptionMain />} />
+          <Route path="/rsvp/reception" element={<ReceptionMain />} />
+          <Route path="/rsvp/ceremony" element={<CeremonyMain />} />
         </Routes>
       </BrowserRouter>
     </div>
