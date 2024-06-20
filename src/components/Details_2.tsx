@@ -12,7 +12,7 @@ export default function Details_2() {
         <em style={{ fontSize: "2rem", lineHeight: "1rem", marginTop: "25px" }}>
           Music
         </em>
-        <h3 style={{ lineHeight: ".2rem" }}>PERFORMED BY Jac Mac</h3>
+        <h3 style={{ lineHeight: ".2rem" }}>PERFORMED BY Jack Mac</h3>
         <em style={{ fontSize: "2rem", lineHeight: "3rem" }}>And</em>
         <h3 style={{ lineHeight: ".2rem" }}>
           A NEVER HEARD BEFORE SUPER GROUP

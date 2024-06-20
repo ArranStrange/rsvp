@@ -5,7 +5,8 @@ export default function Landing() {
   return (
     <div className="component purple-background">
       <em
-        style={{ fontSize: "1.5rem", marginTop: "50px", marginBottom: "50px" }}
+        className="Celebration"
+        style={{ fontSize: "1.5rem", marginBottom: "50px" }}
       >
         a celebration
       </em>
