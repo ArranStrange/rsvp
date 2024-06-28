@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import Envelope from "../assets/Envelope.png";
 import Sent from "../assets/Sent.png";
-import emailjs, { init } from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
 export default function RSVPCeremony(): JSX.Element {
