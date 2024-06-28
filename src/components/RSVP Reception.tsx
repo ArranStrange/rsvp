@@ -63,7 +63,7 @@ export default function RSVPReception(): JSX.Element {
           <img src={Sent} style={{ width: "50px" }} alt="Sent" />
         ) : null}
       </motion.div>
-
+      {/* sdasdasd */}
       <h2 id="isAttending">
         {isAttending === null
           ? "please rsvp"
