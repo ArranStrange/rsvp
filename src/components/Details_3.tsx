@@ -35,6 +35,9 @@ export default function Details_3() {
         </em>
         <h3 style={{ lineHeight: ".2rem" }}>SERVED LATE</h3>
       </div> */}
+      <h5 style={{ marginTop: "-25px" }}>
+        Light Bites, Drinks and Music in the evening
+      </h5>
     </div>
   );
 }

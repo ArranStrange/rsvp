@@ -133,6 +133,8 @@ export default function RSVPCeremony(): JSX.Element {
           </button>
         </div>
       </form>
+      <h5 style={{ marginTop: "5px" }}>please respond by</h5>
+      <em style={{ fontSize: "2rem", marginTop: "-15px" }}>11.08.2024</em>
     </div>
   );
 }

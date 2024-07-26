@@ -11,7 +11,7 @@ function PartyMain() {
       {/* <img src={Paper} className="overlay-texture" alt="Overlay texture" /> */}
       <Landing />
       <Details_4 />
-      <Details_5 />
+
       <RSVPReception />
     </div>
   );

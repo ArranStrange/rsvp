@@ -12,6 +12,7 @@ export default function Details_4() {
         style={{ width: "140px", marginTop: "-40px", marginBottom: "70px" }}
       />
       <em style={{ fontSize: "1.5rem", marginBottom: "-15px" }}>7pm</em>
+      <h4 style={{ marginTop: "75px" }}>Light Bites, Drinks and Music</h4>
     </div>
   );
 }
